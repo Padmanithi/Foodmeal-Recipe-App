@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Home {
+  margin-top: 50px;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  margin: 15px;
+}
+
+.common-background {
+  padding: 20px;
+  border-radius: 10px;
+  background: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+  background-size: cover;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-right: 300px;
+}
+
+.header-link {
+  margin-left: 150px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.search-box {
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+}
+
+.search-box input {
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  color: white;
+  background-color: rgba(4, 3, 3, 0.8);
+}
+.search-box button {
+  border: none;
+  padding: 10px;
+  background-color: rgb(69, 61, 61);
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+.res1 {
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+.res1 a {
+  text-decoration: none;
+}
+
+.restaurant-image {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.res1 img:hover {
+  transform: scale(1.05);
+}
+
+.res1 h5 {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: black;
+}
+.res1 p {
+  font-size: 0.9em;
+  color: black;
+  line-height: 1.4;
+}
+.res2 {
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.res2 a {
+  text-decoration: none;
+}
+
+.res2 img {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.res2 img:hover {
+  transform: scale(1.05);
+}
+
+.res2 h5 {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: black;
+}
+
+.res2 p {
+  font-size: 0.9em;
+  color: black;
+  line-height: 1.4;
+}
+
+.meal-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.meal-card {
+  margin-left: 40px;
+  margin-top: 20px;
+  border: 1px solid;
+  border-color: black;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  color: black;
+}
+
+.meal-card img {
+  width: 100%;
+}
+
+.meal-card h3 {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.meal-card a {
+  text-decoration: none;
+  color: red;
+}
+.meal-details-container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: url("https://i.pinimg.com/originals/04/ac/09/04ac09a6583bff1e7ddf90c305b2de67.jpg");
+  background-size: cover;
+  border-radius: 70px;
+  box-shadow: 8px 8px 8px 8px black;
+}
+
+.meal-title {
+  text-align: center;
+  font-size: 5.5em;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.meal-image {
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+  border: 2px solid black;
+}
+
+.meal-image:hover {
+  transform: scale(1.05);
+}
+
+.ingredients-title,
+.instructions-title {
+  font-size: 2em;
+  margin: 20px 0 10px;
+  color: red;
+}
+.ingredients-list {
+  padding: 0;
+  justify-content: center;
+}
+
+.ingredient-item {
+  font-size: 1.2em;
+  margin: 5px 10px;
+  color: black;
+  position: static;
+  padding-left: 1.5em;
+}
+
+.ingredient-item::before {
+  font-size: 1.5em;
+  position: static;
+  left: -1rem;
+  top: 0;
+}
+
+.instructions {
+  font-size: 1.2em;
+  color: #131212;
+  text-align: left;
+  font-size: xx-large;
+}
+.food_grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
